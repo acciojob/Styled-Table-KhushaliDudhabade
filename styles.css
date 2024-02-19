@@ -1,1 +1,19 @@
 /* your code */
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {
+	background-color: #312f80;
+	color:white;
+}
+tr:nth-child(even) {
+	background-color: #8683eb;
+}
+th {
+  background-color: #342ff7;
+  color: white;
+}
